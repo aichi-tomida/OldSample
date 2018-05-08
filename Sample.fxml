@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainForm" minHeight="200" prefHeight="300.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.SampleController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Button fx:id="cmd" layoutX="80.0" layoutY="237.0" mnemonicParsing="false" onAction="#doSomething" text="挨拶" />
+    <Button fx:id="cmdClose" layoutX="150.0" layoutY="237.0" mnemonicParsing="false" onAction="#frmclose" text="閉じる" />
+    <Label fx:id="lbl" layoutX="65.0" layoutY="20.0" prefWidth="171.0" text="" />
+    <Label fx:id="lbl1" layoutX="65.0" layoutY="52.0" prefWidth="157.0" text="" />
+    <TableView fx:id="tableview" layoutX="50.0" layoutY="94.0" prefHeight="130.0" prefWidth="200.0">
+      <columns>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="49.0" text="列X" />
+        <TableColumn prefWidth="75.0" text="列X" />
+        <TableColumn prefWidth="75.0" text="列X" />
+      </columns>
+    </TableView>
+  </children>
+</AnchorPane>
